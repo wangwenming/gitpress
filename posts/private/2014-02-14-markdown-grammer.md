@@ -1,54 +1,55 @@
-##����
-��ƪ�����Ǹ��˵�markdown�ʼǣ��������ǵ�ʱ���Լ��鿴������Ϊmarkdown�̳�ʹ�á�
+#关于
+这篇文章是个人的markdown笔记，方便忘记的时候自己查看，不作为markdown教程使用。
 
-##����
+#语法
+##标题
 ```
-# ���� H1
+# 这是 H1
 
-## ���� H2
+## 这是 H2
 
-###### ���� H6
+###### 这是 H6
 '''
 
-##�б�
-1. �����б�ʹ���Ǻš��ӺŻ��Ǽ�����Ϊ�б���ǣ���һ��
-2. �����б���ʹ�����ֽ���һ��Ӣ�ľ��
-3. �б���Ŀ���԰���������䣬ÿ����Ŀ�µĶ��䶼�������� 4 ���ո���� 1 ���Ʊ���
-4. ���Ҫ�Ŵ�������Ļ������������Ҫ�������Σ�Ҳ���� 8 ���ո���� 2 ���Ʊ���
+##列表
+1. 无序列表使用星号、加号或是减号作为列表标记，都一样
+2. 有序列表则使用数字接着一个英文句点
+3. 列表项目可以包含多个段落，每个项目下的段落都必须缩进 4 个空格或是 1 个制表符
+4. 如果要放代码区块的话，该区块就需要缩进两次，也就是 8 个空格或是 2 个制表符
 
-##�������� Blockquotes
-* ÿ��ǰ�� > 
-* ����͵��ֻ�ڶ���ǰ�� >
-* ������Ƕ��
-* ���õ�������Ҳ����ʹ�������� Markdown �﷨���������⡢�б������������
+##区块引用 Blockquotes
+* 每行前加 > 
+* 或者偷懒只在段落前加 >
+* 还可以嵌套
+* 引用的区块内也可以使用其他的 Markdown 语法，包括标题、列表、代码区块等
 
-##��������
-1. Ҫ�� Markdown �н�����������ܼ򵥣�ֻҪ�򵥵����� 4 ���ո���� 1 ���Ʊ����Ϳ���
-2. �ڴ����������棬 & �� < �� > ���Զ�ת�� HTML ʵ��
+##代码区块
+1. 要在 Markdown 中建立代码区块很简单，只要简单地缩进 4 个空格或是 1 个制表符就可以
+2. 在代码区块里面， & 、 < 和 > 会自动转成 HTML 实体
 
-##����
-* ���Ҫ���һС�����ڴ��룬������÷����Ű���������
+##代码
+* 如果要标记一小段行内代码，你可以用反引号把它包起来
 
-##�ָ���
-һ�������������ϵ��Ǻš����š�����������һ���ָ��ߣ����ڲ�������������
+##分隔线
+一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西
 
-##����
+##链接
 * This is [an example](http://example.com/ "Title") inline link.
-* �ο�ʽ�����������������ֵ����ź����ٽ�����һ�������ţ����ڵڶ�������������Ҫ�������Ա�ʶ���ӵı�ǣ�This is [an example] [id] reference-style link�����ţ����ļ������⴦������԰������ǵ��������ݶ��������[id]: http://example.com/  "Optional Title Here" ����Ҳ���԰� title ���Էŵ���һ�У�Ҳ���Լ�һЩ����������ַ̫���Ļ���������ȽϺÿ���
+* 参考式的链接是在链接文字的括号后面再接上另一个方括号，而在第二个方括号里面要填入用以辨识链接的标记：This is [an example] [id] reference-style link。接着，在文件的任意处，你可以把这个标记的链接内容定义出来：[id]: http://example.com/  "Optional Title Here" 。你也可以把 title 属性放到下一行，也可以加一些缩进，若网址太长的话，这样会比较好看：
 ```
 [id]: http://example.com/longish/path/to/resource/here
     "Optional Title Here"
 ```
-* �Զ����ӣ�<http://example.com/>
+* 自动链接：<http://example.com/>
 
-##ͼƬ
-1. ����ʽ�� ![Alt text](/path/to/img.jpg "Optional title")
-2. �ο�ʽ�� ![Alt text][id]
+##图片
+1. 行内式： ![Alt text](/path/to/img.jpg "Optional title")
+2. 参考式： ![Alt text][id]
 
-##ǿ��
-* Markdown ʹ���Ǻţ�*���͵��ߣ�_����Ϊ���ǿ���ִʵķ���
-* ǿ��Ҳ����ֱ�Ӳ��������м�
+##强调
+* Markdown 使用星号（*）和底线（_）作为标记强调字词的符号
+* 强调也可以直接插在文字中间
 
-#�ο�
+#参考
 1. [wowubuntu] http://wowubuntu.com/markdown/
-    "Markdown �﷨˵�� (�������İ�)"
+    "Markdown 语法说明 (简体中文版)"
