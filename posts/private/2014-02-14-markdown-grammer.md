@@ -1,6 +1,16 @@
 #关于
 这篇文章是个人的markdown笔记，方便忘记的时候自己查看，不作为markdown教程使用。
 
+#概述
+Markdown 是一种轻量级的标记语言，由John Gruber和Aaron Swartz创建，最初由Gruber应用在Perl语言中。
+Markdown 允许 HTML 语法，所以使用者如果需要可以直接用 HTML来表示是可以的。
+HTML 是一种发布的格式，Markdown 是一种书写的格式。
+
+Markdown 的目标是实现「易读易写」。
+Markdown的语法简洁明了、学习容易，而且功能比纯文本更强，因此有很多人用它写博客。世界上最流行的博客平台WordPress和大型CMS如joomla、drupal都能很好的支持Markdown。
+
+LaTeX，Docbook。
+
 #语法
 ##标题
 ```
