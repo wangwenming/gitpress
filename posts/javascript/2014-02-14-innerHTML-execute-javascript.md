@@ -1,4 +1,4 @@
-## jQuery的html(code)方法，如果code里有<script>，并不会自动执行
+## jQuery的html(code)方法，如果code里有&lt;script&gt;，并不会自动执行
 
 代码：
 ```js
