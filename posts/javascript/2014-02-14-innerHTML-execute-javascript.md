@@ -1,5 +1,5 @@
 ## jQuery的html(code)方法，如果code里有<script>，并不会自动执行
-...js
+```js
 (function() {
   function evalScript(elem) {
     var data = (elem.text || elem.textContent || elem.innerHTML || "" ),
@@ -36,4 +36,4 @@
     return this;
   }
 })();
-...
+'''
