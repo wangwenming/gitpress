@@ -1,5 +1,11 @@
 {
-    "docs"      : ["posts"],
+    "docs"      : [
+        "JavaScript": "posts/javascript",
+        "PHP": "posts/PHP",
+        "HTML_CSS": "posts/HTML_CSS",
+        "private": "posts/private",
+        "大杂烩": "posts/大杂烩"
+    ],
     "template"    : "default",
     /*"domain_alias" :  ["wangwenming.so"],    */
     "perpage"   : 10,
