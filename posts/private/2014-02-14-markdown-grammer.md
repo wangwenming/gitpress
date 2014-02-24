@@ -35,16 +35,16 @@
 
 ##链接
 * This is [an example](http://example.com/ "Title") inline link.
-* 参考式的链接是在链接文字的括号后面再接上另一个方括号，而在第二个方括号里面要填入用以辨识链接的标记：This is [an example] [id] reference-style link。接着，在文件的任意处，你可以把这个标记的链接内容定义出来：[id]: http://example.com/  "Optional Title Here" 。你也可以把 title 属性放到下一行，也可以加一些缩进，若网址太长的话，这样会比较好看：
+* 参考式的链接是在链接文字的括号后面再接上另一个方括号，而在第二个方括号里面要填入用以辨识链接的标记：`This is [an example] [id] reference-style link`。接着，在文件的任意处，你可以把这个标记的链接内容定义出来：`[id]: http://example.com/  "Optional Title Here"` 。你也可以把 title 属性放到下一行，也可以加一些缩进，若网址太长的话，这样会比较好看：
 ```
 [id]: http://example.com/longish/path/to/resource/here
     "Optional Title Here"
 ```
-* 自动链接：<http://example.com/>
+* 自动链接：`<http://example.com/>`
 
 ##图片
-1. 行内式： ![Alt text](/path/to/img.jpg "Optional title")
-2. 参考式： ![Alt text][id]
+1. 行内式： `![Alt text](/path/to/img.jpg "Optional title")`
+2. 参考式： `![Alt text][id]`
 
 ##强调
 * Markdown 使用星号（*）和底线（_）作为标记强调字词的符号
@@ -53,3 +53,5 @@
 #参考
 1. [wowubuntu] http://wowubuntu.com/markdown/
     "Markdown 语法说明 (简体中文版)"
+2. [mahua] http://mahua.jser.me/
+    "MaHua 在线markdown编辑器"
