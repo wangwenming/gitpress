@@ -1,7 +1,7 @@
 {
     "docs"      : ["posts"],
     "template"    : "default",
-    "domain_alias" :  ["wangwenming.so"],    
+    /*"domain_alias" :  ["wangwenming.so"],    */
     "perpage"   : 10,
     "order"  : "number",
     "types"     : {
