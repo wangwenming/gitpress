@@ -6,7 +6,7 @@
         "private": "posts/private",
         "大杂烩": "posts/大杂烩"
     },
-    "template"    : "default",
+    "template"    : "pithiness",
     "perpage"   : 10,
     "order"  : "number",
     "types"     : {
