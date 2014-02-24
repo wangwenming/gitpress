@@ -1,4 +1,6 @@
-## jQueryµÄhtml(code)·½·¨£¬Èç¹ûcodeÀïÓĞ<script>£¬²¢²»»á×Ô¶¯Ö´ĞĞ
+## jQueryçš„html(code)æ–¹æ³•ï¼Œå¦‚æœcodeé‡Œæœ‰<script>ï¼Œå¹¶ä¸ä¼šè‡ªåŠ¨æ‰§è¡Œ
+
+ä»£ç ï¼š
 ```js
 (function() {
   function evalScript(elem) {
