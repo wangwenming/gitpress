@@ -6,7 +6,6 @@
         "private": "posts/private",
         "大杂烩": "posts/大杂烩"
     },
-    "domain_alias"    : ["koala.guru"],
     "template"    : "pithiness",
     "perpage"   : 10,
     "order"  : "number",
