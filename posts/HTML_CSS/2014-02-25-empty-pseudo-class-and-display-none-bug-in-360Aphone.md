@@ -13,7 +13,7 @@ CSS为： div:empty {display: none; color: red;}
 <div>如果你看到我了，说明你不是用360浏览器</div>
 
 
-```html
+```
 <!DOCTYPE html>
 <html>
 <head>
