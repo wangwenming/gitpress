@@ -1,12 +1,12 @@
-#ÏÖÏó
+#ç°è±¡
 ```
 03-03 15:17:43.909: E/Trace(18168): error opening trace file: No such file or directory (2)
 03-03 15:17:43.959: W/dalvikvm(18168): Refusing to reopen boot DEX '/system/framework/hwframework.jar'
 ```
 
-#·½·¨
-ÊÖ»ú²¦ºÅ*#*#2846579#*#*£¬½øÈë projectmenu -> ºóÌ¨ÉèÖÃ -> LOGÉèÖÃ -> LOG¿ª¹Ø -> ´ò¿ª
+#æ–¹æ³•
+æ‰‹æœºæ‹¨å·*#*#2846579#*#*ï¼Œè¿›å…¥ projectmenu -> åå°è®¾ç½® -> LOGè®¾ç½® -> LOGå¼€å…³ -> æ‰“å¼€
 
-#²Î¿¼
+#å‚è€ƒ
 1. [logcat] http://blog.csdn.net/gebitan505/article/details/14453231
-    "»ªÎªÊÖ»úÔÚ¿ª·¢Androidµ÷ÊÔÊ±logcat²»ÏÔÊ¾Êä³öĞÅÏ¢µÄ½â¾ö°ì·¨"
+    "åä¸ºæ‰‹æœºåœ¨å¼€å‘Androidè°ƒè¯•æ—¶logcatä¸æ˜¾ç¤ºè¾“å‡ºä¿¡æ¯çš„è§£å†³åŠæ³•"

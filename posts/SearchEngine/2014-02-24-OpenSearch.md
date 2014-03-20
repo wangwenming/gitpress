@@ -1,7 +1,9 @@
+#OpenSearch
+
 ```xml
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-    <ShortName>360หัห๗</ShortName>
-    <Description>360หัห๗</Description>
+    <ShortName>360ๆ็ดข</ShortName>
+    <Description>360ๆ็ดข</Description>
     <InputEncoding>UTF-8</InputEncoding>
     <Url type="text/html" method="get" template="http://wwm.www.so.com/s">
         <Param name="q" value="{searchTerms}"/>
