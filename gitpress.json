@@ -4,9 +4,9 @@
         "Nodejs": "posts/nodejs",
         "PHP": "posts/PHP",
         "HTML_CSS": "posts/HTML_CSS",
-        "private": "posts/private",
         "android": "posts/android",
         "SearchEngine": "posts/SearchEngine",
+        "linux": "posts/linux",
         "大杂烩": "posts/大杂烩"
     },
     "domain_alias": ["koala.guru", "www.koala.guru"],
