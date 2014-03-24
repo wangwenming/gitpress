@@ -4,11 +4,13 @@
 div:empty {display: none; color: red;}
 </style>
 
-在360浏览器(我测试了 5.1.5)下，包含 `:empty` 的选择符，如果值包含 `display:none` （只对none有效），则不管元素是否为空 ， display 都会生效
+在360浏览器(我测试了5.1.5)下，包含`:empty`的选择符，如果值包含`display: none`（只对none有效），则不管元素是否为空，`display`都会生效
 
 CSS为： `div:empty {display: none; color: red;}`
 
 360浏览器下，分割线下面（有一个div）啥也看不到哦！
+
+<hr>
 
 <div>如果你看到我了，说明你不是用360浏览器</div>
 
