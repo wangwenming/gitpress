@@ -10,9 +10,7 @@ CSS为： `div:empty {display: none; color: red;}`
 
 360浏览器下，分割线下面（有一个div）啥也看不到哦！
 
-<hr>
-
-<div>如果你看到我了，说明你不是用360浏览器</div>
+<div style="border-top: 1px solid #ddd; padding-top: 10px;">如果你看到我了，说明你不是用360浏览器</div>
 
 <script>
 console.log('Congs!');
